@@ -49,7 +49,7 @@
   height: 75px;
 }
 .nav-menu-items {
-  margin-left: 400px;
+    margin-left: 739px;
 }
 .logo-titel {
   display: block;
@@ -71,7 +71,7 @@
 .logo-newlogo {
   color: #ff50ac;
   margin-top: 5px;
-  padding-left: 17px;
+  padding-left: 30px;
 }
 #menu li {
   float: left;
@@ -83,7 +83,7 @@
   line-height: 40px;
   padding: 0 14px;
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
   font-size: 20px;
 }
 #menu a.dropdown-arrow:after {
@@ -121,6 +121,7 @@
   align-items: center;
   padding-left: 40px;
   font-size: 31px;
+  position: absolute;
 }
 #menu ul.sub-menus {
   height: auto;
@@ -157,8 +158,8 @@
     position: relative;
   }
   #menu ul {
-    background: #111;
-    position: absolute;
+background:rgb(0 0 0 / 50%);
+    position: relative;
     top: 100%;
     right: 0;
     left: 0;
@@ -189,7 +190,7 @@
     z-index: 4;
   }
   #menu input:checked + label {
-    color: white;
+    color: rgb(5, 5, 5);
   }
   #menu input:checked + label:before {
     content: "\00d7";

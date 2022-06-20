@@ -228,7 +228,7 @@ export default {
     display: block;
   }
   .service-banner-h {
-    width: 409px;
+    width: 389px;
     color: rgb(0, 0, 0);
     font-family: "Merriweather";
     font-weight: 500;

@@ -89,6 +89,80 @@ export default {
   components: {
     Navbar,
   },
+  head() {
+    return {
+      title: "stu | service",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Join us on our mission to reimagine the facilities experience and transform the built environment.",
+        },
+        {
+          hid: "fb-share-title",
+          property: "og:title",
+          content: "stuinnov.com | service",
+        },
+        {
+          hid: "fb-share-description",
+          property: "og:description",
+          content: "Join us on our mission to reimagine the facilities",
+        },
+        {
+          hid: "fb-share-image",
+          property: "og:image",
+          rel: "icon",
+          type: "image/png",
+          sizes: "16x16",
+          href: "images/logo-s.png",
+        },
+        {
+          hid: "fb-share-url",
+
+          property: "og:url",
+          content: "https://stuinnov.com/service/",
+        },
+        {
+          hid: "twitter-meta",
+          name: "twitter:card",
+          content: "summary_large_image",
+        },
+        {
+          hid: "twitter-title",
+          name: "twitter:title",
+          content: "stuinnov.com | service",
+        },
+        {
+          hid: "twitter-description",
+          name: "twitter:description",
+          content:
+            "Join us on our mission to reimagine the facilities experience and transform the built environment.",
+        },
+        {
+          hid: "twitter-image",
+          name: "twitter:image",
+          content: "",
+        },
+        {
+          hid: "twitter-url",
+          name: "twitter:url",
+          content: "hhttps://stuinnov.com/service/",
+        },
+      ],
+      link: [
+        {
+          rel: "canonical",
+          href: "https://stuinnov.com/service/",
+        },
+      ],
+      script: [
+        { src: "../js/page.js" },
+        { src: "../js/waypoints.min.js" },
+        { src: "../js/includes.js" },
+      ],
+    };
+  },
 };
 </script>
 <style>
@@ -119,5 +193,23 @@ export default {
   transition: 0.2s ease-out !important;
   box-shadow: -8px 8px 19px -8px rgb(123 127 218 / 20%);
   
+}
+@media only screen and (max-width: 480px) {
+  .service-banner-1 {
+    height: 300px;
+    background-color: rgb(117, 255, 227);
+    border: none;
+    display: block;
+  }
+  .service-banner-h {
+    width: 389px;
+    color: rgb(0, 0, 0);
+    font-family: "Merriweather";
+    font-weight: 500;
+    text-align: center;
+  }
+  .img-service {
+    display: none;
+  }
 }
 </style>
