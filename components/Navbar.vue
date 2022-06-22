@@ -83,7 +83,7 @@
   line-height: 40px;
   padding: 0 14px;
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
   font-size: 20px;
 }
 #menu a.dropdown-arrow:after {
@@ -216,6 +216,14 @@ background:rgb(0 0 0 / 50%);
   }
   .nav-menu-items {
   margin-left: 0px;
+}
+#menu a {
+    display: block;
+    line-height: 40px;
+    padding: 0 14px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
 }
 }
 </style>
