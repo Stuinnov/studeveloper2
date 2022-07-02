@@ -294,9 +294,7 @@ html {
   font-family: "ProximaNovaSemibold";
   padding-top: 90px;
 }
-.box {
-  /* margin-top: -19px;*/
-}
+
 .job-wey {
   display: -webkit-box;
   display: -webkit-flex;
