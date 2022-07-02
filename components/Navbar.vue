@@ -26,8 +26,8 @@
         <li>
           <a class="dropdown-arrow" href="#">Company</a>
           <ul class="sub-menus">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Careers</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/careers">Careers</a></li>
             <li><NuxtLink to="/contact">Contact Us</NuxtLink></li>
             <li><a href="#"></a></li>
           </ul>
