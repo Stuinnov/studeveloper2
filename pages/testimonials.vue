@@ -164,4 +164,14 @@ export default {
     padding: 9px 1px 7px;
 }
 }
+@media only screen and (max-width: 480px) {
+.st-page-baneer {
+    margin-top: 0px;
+    padding: 23px 35px;
+    /* height: auto; */
+    /* position: relative; */
+    background-size: 427px;
+    background-image: url(/images/testimonial-background.webp);
+}
+}
 </style>
