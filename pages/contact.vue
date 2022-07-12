@@ -227,4 +227,37 @@ export default {
     padding-left: 34px;
   }
 }
+
+@media only screen and (max-width: 480px) {
+.form-bg {
+    padding: 2em;
+    flex: 1;
+    max-width: 506px;
+    width: 127%;
+    margin: 8px -30px;
+    box-shadow: 0 1px 5px 5px hsl(0deg 0% 61% / 7%) !important;
+    border-radius: 15px !important;
+    background-color: #fff;
+    position: relative;
+}
+.cil-md-6{
+  padding-left: 34px;
+}
+}
+@media only screen and (min-width: 1200px) {
+.form-bg {
+    padding: 2em;
+    flex: 1;
+    max-width: 506px;
+    width: 127%;
+    margin: 8px -30px;
+    box-shadow: 0 1px 5px 5px hsl(0deg 0% 61% / 7%) !important;
+    border-radius: 15px !important;
+    background-color: #fff;
+    position: relative;
+}
+.cil-md-6{
+  padding-left: 34px;
+}
+}
 </style>
