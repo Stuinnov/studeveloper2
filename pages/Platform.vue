@@ -5,7 +5,7 @@
     </div>
     <div class="service-banner" >
         <div class="service-banner-h">
-          <h1 style="    font-size: 76px;">Platform</h1>
+          <h1 style="    font-size: 76px;"></h1>
           <p style="font-size: 23px;">We deliver extremely responsive cross-platform apps that improve user engagement and enhance the user experience across platforms</p>
           </div>
         <img class="img-platform" src="images/Platform-1.png"/>
