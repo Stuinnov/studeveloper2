@@ -66,18 +66,17 @@
           <div class="col-md-6" style="padding-left: 109px">
             <img class="images" src="images/shapes.png" />
             <div class="form-bg">
-                <h1 style="    text-align: center;
-    margin-bottom: 29px;">Get In Touch</h1>
+              <h1 style="text-align: center; margin-bottom: 29px">
+                Get In Touch
+              </h1>
               <form action="#" method="post">
-                  
                 <div class="contact-fields">
                   <label for="fname">First Name</label>
                   <input
                     type="text"
                     name="Name"
                     placeholder="Name"
-                    
-                    style="width: 308px; height: 40px;"
+                    style="width: 308px; height: 40px"
                   />
                 </div>
                 <div class="contact-fields">
@@ -86,8 +85,7 @@
                     type="email"
                     name="Email"
                     placeholder="Email"
-                    
-                    style="width: 308px; height: 40px;"
+                    style="width: 308px; height: 40px"
                   />
                 </div>
                 <div class="contact-fields">
@@ -96,8 +94,7 @@
                     type="text"
                     name="Subject"
                     placeholder="Subject"
-                    
-                    style="width: 308px; height: 40px;"
+                    style="width: 308px; height: 40px"
                   />
                 </div>
                 <div class="contact-fields">
@@ -105,15 +102,10 @@
                   <textarea
                     name="Message"
                     placeholder="Message"
-                    
                     style="width: 308px"
                   ></textarea>
                 </div>
-                <input
-                class="btn-page"
-                  type="submit"
-                  value="Submit"
-                />
+                <input class="btn-page" type="submit" value="Submit" />
               </form>
             </div>
           </div>
@@ -133,7 +125,8 @@ export default {
 </script>
 <style>
 .st-page {
-  margin-top: 65px;
+  margin-top: 0px;
+  background-color: aquamarine;
   padding: 100px 0;
 }
 .page-title {
@@ -189,22 +182,21 @@ export default {
   width: 100%;
   opacity: 0.3;
 }
-.btn-page{
-    margin-top: 69px;
-    width: 156px;
-    margin-left: 5pc;
-    background: #f508a3;
-    color: white;
-    height: 41px;
-    border: none;
-    font-size: 19px;
-    font-weight: 300px;
-    border-radius: 5px;
-    
+.btn-page {
+  margin-top: 69px;
+  width: 156px;
+  margin-left: 5pc;
+  background: #f508a3;
+  color: white;
+  height: 41px;
+  border: none;
+  font-size: 19px;
+  font-weight: 300px;
+  border-radius: 5px;
 }
 
 @media only screen and (max-width: 480px) {
-.form-bg {
+  .form-bg {
     padding: 2em;
     flex: 1;
     max-width: 506px;
@@ -214,13 +206,13 @@ export default {
     border-radius: 15px !important;
     background-color: #fff;
     position: relative;
-}
-.cil-md-6{
-  padding-left: 34px;
-}
+  }
+  .cil-md-6 {
+    padding-left: 34px;
+  }
 }
 @media only screen and (min-width: 1200px) {
-.form-bg {
+  .form-bg {
     padding: 2em;
     flex: 1;
     max-width: 506px;
@@ -230,9 +222,9 @@ export default {
     border-radius: 15px !important;
     background-color: #fff;
     position: relative;
-}
-.cil-md-6{
-  padding-left: 34px;
-}
+  }
+  .cil-md-6 {
+    padding-left: 34px;
+  }
 }
 </style>
