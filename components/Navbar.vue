@@ -5,11 +5,7 @@
         <span class="logo-newlogo">STU Innovations</span>
       </h1>
     </div>
-<<<<<<< HEAD
     <nav id="menu" class="nav-menu-items" style="float: left">
-=======
-    <nav id="menu" class="nav-menu-items" style="float:left">
->>>>>>> 7fcdd8a914f07a05c75654c39d55ac91764f678e
       <input type="checkbox" id="responsive-menu" onclick="updatemenu()" />
 
       <label></label>
@@ -53,11 +49,7 @@
   height: 75px;
 }
 .nav-menu-items {
-<<<<<<< HEAD
   margin-left: 739px;
-=======
-    margin-left: 739px;
->>>>>>> 7fcdd8a914f07a05c75654c39d55ac91764f678e
 }
 .logo-titel {
   display: block;
@@ -166,11 +158,7 @@
     position: relative;
   }
   #menu ul {
-<<<<<<< HEAD
     background: rgb(0 0 0 / 50%);
-=======
-background:rgb(0 0 0 / 50%);
->>>>>>> 7fcdd8a914f07a05c75654c39d55ac91764f678e
     position: relative;
     top: 100%;
     right: 0;
@@ -217,7 +205,6 @@ background:rgb(0 0 0 / 50%);
     color: rgb(0, 0, 0);
     height: 59px;
     padding-left: 19px;
-<<<<<<< HEAD
   }
 }
 @media only screen and (max-width: 480px) {
@@ -237,27 +224,6 @@ background:rgb(0 0 0 / 50%);
     text-decoration: none;
     color: #ffffff;
     font-size: 20px;
-=======
->>>>>>> 7fcdd8a914f07a05c75654c39d55ac91764f678e
   }
-}
-@media only screen and (max-width: 480px) {
-  .logo-titel {
-    display: none;
-  }
-  .mobile-titel {
-    display: block;
-  }
-  .nav-menu-items {
-  margin-left: 0px;
-}
-#menu a {
-    display: block;
-    line-height: 40px;
-    padding: 0 14px;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 20px;
-}
 }
 </style>
