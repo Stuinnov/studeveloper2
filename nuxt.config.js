@@ -8,6 +8,7 @@ export default {
     htmlAttrs: {
       lang: 'en'
     },
+    
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -39,6 +40,7 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
   ],
+  
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
@@ -46,4 +48,5 @@ export default {
       compact: true,
      },
   }
+  
 }
