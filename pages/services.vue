@@ -9,7 +9,7 @@
           <h1 style="    font-size: 76px;">Services</h1>
           <p style="font-size: 23px;">with a chance to win your business. I can't downplay the amount we value having the option to place this proposition before you today.</p>
           </div>
-        <img class="img-service" src="images/Web-Designing.png"/>
+        <img class="img-service" src="/images/Web-Designing.png"/>
 
  
       </div>
@@ -17,7 +17,7 @@
     margin-left: 0px;     align-items: center;">
       <div class="col-md-4" style="padding: 42px;">
         <div class="card-service">
-          <img style="width: 60px;    padding-bottom: 20px;" src="images/social.png">
+          <img style="width: 60px;    padding-bottom: 20px;" src="/images/social.png">
           <h3>Social Media Promotion</h3>
           <p>
             We all know that social media is a phenomenon that looks set to stay and it can provide a convenient route for running inventive and engaging promotions.
@@ -26,7 +26,7 @@
       </div>
       <div class="col-md-4" style="padding: 42px;">
         <div class="card-service">
-          <img style="width: 60px;    padding-bottom: 20px;" src="images/webdesign.png">
+          <img style="width: 60px;    padding-bottom: 20px;" src="/images/webdesign.png">
           <h3>WebDesign & Development</h3>
           <p>
          We are particular web applications manifestations give the most significant level of ease of use, versatility and complete similarity on cell phones, programs and stages.
@@ -35,7 +35,7 @@
       </div>
       <div class="col-md-4" style="padding: 42px;">
         <div class="card-service">
-          <img style="width: 60px;    padding-bottom: 20px;" src="images/google-adwords.png">
+          <img style="width: 60px;    padding-bottom: 20px;" src="/images/google-adwords.png">
           <h3>Google Adwords</h3>
           <p>
             AdWords (Google AdWords) is a publicizing administration by Google for organizations needing to show advertisements on Google and its promoting system.
@@ -44,7 +44,7 @@
       </div>
       <div class="col-md-4" style="padding: 42px;">
         <div class="card-service">
-          <img style="width: 60px;    padding-bottom: 20px;" src="images/softwares.png">
+          <img style="width: 60px;    padding-bottom: 20px;" src="/images/softwares.png">
           <h3>Computer Softwares</h3>
           <p>
             There are a wide range of sorts of use programming, in light of the fact that the scope of assignments that can be performed with a cutting edge PC is so enormous—see rundown of programming.
@@ -53,7 +53,7 @@
       </div>
       <div class="col-md-4" style="padding: 42px;">
         <div class="card-service">
-          <img style="width: 80px;    padding-bottom: 20px;" src="images/seo-1.png">
+          <img style="width: 80px;    padding-bottom: 20px;" src="/images/seo-1.png">
           <h3>Google Promotions & SEO</h3>
           <p>
             Web optimization represents Search Engine Optimization- SEO, which is the act of expanding the amount and nature of traffic to your site through natural web search tool results.
@@ -63,7 +63,7 @@
 
       <div class="col-md-4" style="padding: 42px;">
         <div class="card-service">
-          <img style="width: 90px;    padding-bottom: 20px;" src="images/YouTube.png">
+          <img style="width: 90px;    padding-bottom: 20px;" src="/images/YouTube.png">
           <h3>YouTube Advertising</h3>
           <p>
             YouTube Ads Often previously, during, or after watchers watch a video, they should watch a video promotion. The promotion could be a TrueView In-Stream Video that plays consequently
@@ -72,7 +72,7 @@
       </div>
        <div class="col-md-4" style="padding: 42px;">
         <div class="card-service">
-          <img style="width: 60px;    padding-bottom: 20px;" src="images/domain.png">
+          <img style="width: 60px;    padding-bottom: 20px;" src="/images/domain.png">
           <h3>Domain & Hosting Services</h3>
           <p>
             Web Hosting is a record on a PC as server that can store and serve site documents by means of the Internet. Domain Registration E.g., www.example.com that guides individuals to explicit site records by means of a program.
@@ -115,7 +115,7 @@ export default {
           rel: "icon",
           type: "image/png",
           sizes: "16x16",
-          href: "images/logo-s.png",
+          href: "/images/logo-s.png",
         },
         {
           hid: "fb-share-url",

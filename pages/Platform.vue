@@ -11,7 +11,7 @@
           engagement and enhance the user experience across platforms
         </p>
       </div>
-      <img class="img-platform" src="images/Platform-1.png" />
+      <img class="img-platform" src="/images/Platform-1.png" />
     </div>
     <section
       class="row"
@@ -21,7 +21,7 @@
         <div class="card-service">
           <img
             style="width: 60px; padding-bottom: 20px"
-            src="images/mobile.png"
+            src="/images/mobile.png"
           />
           <h3>STU Mobile ERP</h3>
           <p>
@@ -34,7 +34,7 @@
         <div class="card-service">
           <img
             style="width: 90px; padding-bottom: 20px"
-            src="images/Google_Finance.png"
+            src="/images/Google_Finance.png"
           />
           <h3>STU E Finence</h3>
           <p>
@@ -46,7 +46,7 @@
       </div>
       <div class="col-md-4" style="padding: 42px">
         <div class="card-service">
-          <img style="width: 60px; padding-bottom: 20px" src="images/wd1.jpg" />
+          <img style="width: 60px; padding-bottom: 20px" src="/images/wd1.jpg" />
           <h3>STU E Rooms</h3>
           <p>
             AdWords (Google AdWords) is a publicizing administration by Google
@@ -59,7 +59,7 @@
         <div class="card-service">
           <img
             style="width: 60px; padding-bottom: 20px"
-            src="images/softwares.png"
+            src="/images/softwares.png"
           />
           <h3>Computer Softwares</h3>
           <p>
@@ -73,7 +73,7 @@
         <div class="card-service">
           <img
             style="width: 80px; padding-bottom: 20px"
-            src="images/seo-1.png"
+            src="/images/seo-1.png"
           />
           <h3>Google Promotions & SEO</h3>
           <p>
@@ -88,7 +88,7 @@
         <div class="card-service">
           <img
             style="width: 90px; padding-bottom: 20px"
-            src="images/YouTube.png"
+            src="/images/YouTube.png"
           />
           <h3>YouTube Advertising</h3>
           <p>
@@ -102,7 +102,7 @@
         <div class="card-service">
           <img
             style="width: 60px; padding-bottom: 20px"
-            src="images/domain.png"
+            src="/images/domain.png"
           />
           <h3>Domain & Hosting Services</h3>
           <p>
@@ -149,7 +149,7 @@ export default {
           rel: "icon",
           type: "image/png",
           sizes: "16x16",
-          href: "images/logo-s.png",
+          href: "/images/logo-s.png",
         },
         {
           hid: "fb-share-url",

@@ -19,7 +19,7 @@
               <div class="grid">
                 <img
                   style="width: 13%; padding-bottom: 13px"
-                  src="images/phone.png"
+                  src="/images/phone.png"
                 />
                 <div style="margin-right: 43px">
                   <h3>Phone Number</h3>
@@ -29,7 +29,7 @@
               <div class="grid">
                 <img
                   style="width: 13%; padding-bottom: 13px"
-                  src="images/mail.png"
+                  src="/images/mail.png"
                 />
                 <div>
                   <h3>mail</h3>
@@ -41,7 +41,7 @@
               <div class="grid">
                 <img
                   style="width: 13%; padding-bottom: 13px"
-                  src="images/location.png"
+                  src="/images/location.png"
                 />
                 <div>
                   <h3>Location</h3>
@@ -54,7 +54,7 @@
               <div class="grid">
                 <img
                   style="width: 13%; padding-bottom: 13px"
-                  src="images/working.png"
+                  src="/images/working.png"
                 />
                 <div style="margin-right: 13px">
                   <h3>Working Hours</h3>
@@ -64,7 +64,7 @@
             </div>
           </div>
           <div class="col-md-6" style="padding-left: 109px">
-            <img class="images" src="images/shapes.png" />
+            <img class="/images" src="/images/shapes.png" />
             <div class="form-bg">
               <h1 style="text-align: center; margin-bottom: 29px">
                 Get In Touch
