@@ -6,7 +6,7 @@
     
       <div class="service-banner-1" >
         <div class="service-banner-h">
-          <h1 style="    font-size: 76px;">Services</h1>
+          <h1 style="    font-size: 76px; margin-block: auto;">Services</h1>
           <p style="font-size: 23px;">with a chance to win your business. I can't downplay the amount we value having the option to place this proposition before you today.</p>
           </div>
         <img class="img-service" src="/images/Web-Designing.png"/>
@@ -173,7 +173,7 @@ export default {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-  background-color: rgb(182, 225, 225);
+  background-color: #E76F51;
   border: 0.8px sienna;
 }
 .img-service {
@@ -182,7 +182,7 @@ export default {
 .service-banner-h{
     float: left;
     width: 578px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: "Merriweather";
     font-weight: 500;
 }

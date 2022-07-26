@@ -5,7 +5,7 @@
     </div>
     <div class="service-banner">
       <div class="service-banner-h">
-        <h1 style="font-size: 76px">Platform</h1>
+        <h1 style="font-size: 76px; margin-block: auto;">Platform</h1>
         <p style="font-size: 23px">
           We deliver extremely responsive cross-platform apps that improve user
           engagement and enhance the user experience across platforms
@@ -207,7 +207,7 @@ export default {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  background-color: rgb(241, 244, 244);
+  background-color:#2A9D8F;
   border: 0.8px sienna;
 }
 .img-platform {
@@ -216,7 +216,7 @@ export default {
 .service-banner-h {
   float: left;
   width: 578px;
-  color: #000000;
+  color: #ffffff;
   font-family: "Merriweather";
   font-weight: 500;
 }

@@ -108,11 +108,7 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  background: -webkit-linear-gradient(
-    250deg,
-    #140141,
-    hsla(236, 59%, 22%, 0.74)
-  );
+  background: #E76F51;
 }
 .aboutPage .bannerCont .dots-wrap {
   margin-top: 65px;
