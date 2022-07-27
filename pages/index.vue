@@ -15,7 +15,8 @@
         </p>
       </div>
       <div class="page-banaer" style="text-align: center">
-        <img style="width: 170px" src="/images/poptin-bird-flying.gif" />
+        <img style="width: 145px; height: 123px;" src="/images/poptin-bird-flying.gif" 
+        loading="lazy" alt="" width="120" height="120">
         <h1 style="margin-bottom: -1.5rem">Welcome</h1>
 
         <p
