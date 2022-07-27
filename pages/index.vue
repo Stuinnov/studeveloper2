@@ -6,7 +6,7 @@
     <section>
       <div class="page-heder">
         <h1 class="page-heder-H">
-          Welcome To <span class="text-color">STU  Innovations</span>
+          Welcome To <span class="text-color">STU Innovations</span>
         </h1>
         <p class="page-heder-description">
           "For the benefit of the whole group here at STU Innovations",<br />
@@ -15,8 +15,8 @@
         </p>
       </div>
       <div class="page-banaer" style="text-align: center">
-        <img style="width: 170px;" src="/images/poptin-bird-flying.gif"/>
-        <h1 style="    margin-bottom: -1.5rem;">Welcome</h1>
+        <img style="width: 170px" src="/images/poptin-bird-flying.gif" />
+        <h1 style="margin-bottom: -1.5rem">Welcome</h1>
 
         <p
           class="page-heder-description"
@@ -32,50 +32,41 @@
         </p>
       </div>
       <div class="page-heder-rro row container">
-            <div class="Efficiency">
-        <div class="Efficiency-box">
-          <div class="Efficiency-icon">
-            <img src="/images/smartphone1.svg" />
+        <div class="Efficiency">
+          <div class="Efficiency-box">
+            <div class="Efficiency-heading">
+              <h4>Workforce Efficiency</h4>
+            </div>
+            <div class="Efficiency-subheading">
+              <p>
+                Fully mobile work orders and smart <br />
+                maintenance management
+              </p>
+            </div>
           </div>
-          <div class="Efficiency-heading">
-            <h4>Workforce Efficiency</h4>
+          <div class="Efficiency-box">
+            <div class="Efficiency-heading">
+              <h4>Asset Efficiency</h4>
+            </div>
+            <div class="Efficiency-subheading">
+              <p>
+                Real-time performance monitoring<br />
+                with fault detection and diagnostics
+              </p>
+            </div>
           </div>
-          <div class="Efficiency-subheading">
-            <p>
-              Fully mobile work orders and smart <br />
-              maintenance management
-            </p>
-          </div>
-        </div>
-        <div class="Efficiency-box">
-          <div class="Efficiency-icon">
-            <img src="/images/pressure.svg" />
-          </div>
-          <div class="Efficiency-heading">
-            <h4>Asset Efficiency</h4>
-          </div>
-          <div class="Efficiency-subheading">
-            <p>
-              Real-time performance monitoring<br />
-              with fault detection and diagnostics
-            </p>
-          </div>
-        </div>
-        <div class="Efficiency-box">
-          <div class="Efficiency-icon">
-            <img src="/images/pie-chart.svg" />
-          </div>
-          <div class="Efficiency-heading">
-            <h4>Energy Efficiency</h4>
-          </div>
-          <div class="Efficiency-subheading">
-            <p>
-              Predictive energy analytics and <br />
-              actionable insights across portfolio
-            </p>
+          <div class="Efficiency-box">
+            <div class="Efficiency-heading">
+              <h4>Energy Efficiency</h4>
+            </div>
+            <div class="Efficiency-subheading">
+              <p>
+                Predictive energy analytics and <br />
+                actionable insights across portfolio
+              </p>
+            </div>
           </div>
         </div>
-      </div> 
       </div>
     </section>
   </div>
@@ -93,7 +84,6 @@ export default {
       title: "STU Innovations Private Limited",
       meta: [
         {
-          
           name: "description",
           content:
             "Join us on our mission to reimagine the facilities experience and transform the built environment.",
@@ -219,8 +209,8 @@ export default {
   align-items: center;
   padding-bottom: 60px;
   padding-bottom: 0 !important;
-  padding-top: 78px;
-  padding-left: 167px;
+  padding-top: 1px;
+  padding-left: 101px;
 }
 .paera {
   width: 100% !important;
@@ -415,7 +405,8 @@ html {
   .box-title {
     font-size: 13px;
   }
-}.Efficiency-subheading {
+}
+.Efficiency-subheading {
   font-size: 18px;
   font-family: "ProximaNovaRgRegular";
   line-height: 1.39;
@@ -431,8 +422,8 @@ html {
   color: #342d4f;
 }
 .Efficiency-box {
-      width: 32.3%;
-    padding-right: 63px;
+  width: 32.3%;
+  padding-right: 63px;
 }
 .box-text {
   max-width: 75px;
