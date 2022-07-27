@@ -125,10 +125,10 @@ export default {
   },
   head() {
     return {
-      title: "stu | platform",
+      title: "Platform|STU Innovations Private Limited",
       meta: [
         {
-          hid: "description",
+          
           name: "description",
           content:
             "Join us on our mission to reimagine the facilities experience and transform the built environment.",

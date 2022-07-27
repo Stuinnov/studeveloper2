@@ -64,7 +64,8 @@
             </div>
           </div>
           <div class="col-md-6" style="padding-left: 109px">
-            <img class="/images" src="/images/shapes.png" />
+            <img style="left: -4px;top: -83px; width: 556px;position: absolute;opacity: 0.3;" class="/images" src="/images/shapes.png"
+            />
             <div class="form-bg">
               <h1 style="text-align: center; margin-bottom: 29px">
                 Get In Touch
@@ -76,6 +77,7 @@
                     type="text"
                     name="Name"
                     placeholder="Name"
+                    required
                     style="width: 308px; height: 40px"
                   />
                 </div>
@@ -85,6 +87,7 @@
                     type="email"
                     name="Email"
                     placeholder="Email"
+                    required
                     style="width: 308px; height: 40px"
                   />
                 </div>
@@ -94,6 +97,7 @@
                     type="text"
                     name="Subject"
                     placeholder="Subject"
+                    required
                     style="width: 308px; height: 40px"
                   />
                 </div>
@@ -121,6 +125,80 @@ export default {
   components: {
     Navbar,
   },
+  head() {
+    return {
+      title: "Contact|STU Innovations Private Limited",
+      meta: [
+        {
+          
+          name: "description",
+          content:
+            "Join us on our mission to reimagine the facilities experience and transform the built environment.",
+        },
+        {
+          hid: "fb-share-title",
+          property: "og:title",
+          content: "stuinnov.com | platform",
+        },
+        {
+          hid: "fb-share-description",
+          property: "og:description",
+          content: "Join us on our mission to reimagine the facilities",
+        },
+        {
+          hid: "fb-share-image",
+          property: "og:image",
+          rel: "icon",
+          type: "image/png",
+          sizes: "16x16",
+          href: "/images/logo-s.png",
+        },
+        {
+          hid: "fb-share-url",
+
+          property: "og:url",
+          content: "https://stuinnov.com/platform/",
+        },
+        {
+          hid: "twitter-meta",
+          name: "twitter:card",
+          content: "summary_large_image",
+        },
+        {
+          hid: "twitter-title",
+          name: "twitter:title",
+          content: "stuinnov.com | platform",
+        },
+        {
+          hid: "twitter-description",
+          name: "twitter:description",
+          content:
+            "Join us on our mission to reimagine the facilities experience and transform the built environment.",
+        },
+        {
+          hid: "twitter-image",
+          name: "twitter:image",
+          content: "",
+        },
+        {
+          hid: "twitter-url",
+          name: "twitter:url",
+          content: "hhttps://stuinnov.com/platform/",
+        },
+      ],
+      link: [
+        {
+          rel: "canonical",
+          href: "https://stuinnov.com/platform/",
+        },
+      ],
+      script: [
+        { src: "../js/page.js" },
+        { src: "../js/waypoints.min.js" },
+        { src: "../js/includes.js" },
+      ],
+    };
+  },
 };
 </script>
 <style>
@@ -147,7 +225,7 @@ export default {
 .form-bg {
   padding: 4em;
   flex: 1;
-  max-width: 440px;
+  max-width: 394px;
   width: 100%;
   margin: 0 auto;
   box-shadow: 0 1px 5px 5px hsla(0, 0%, 61.2%, 0.07) !important;
@@ -199,7 +277,7 @@ export default {
   .form-bg {
     padding: 2em;
     flex: 1;
-    max-width: 506px;
+    max-width: 394px;
     width: 127%;
     margin: 8px -30px;
     box-shadow: 0 1px 5px 5px hsl(0deg 0% 61% / 7%) !important;
@@ -215,7 +293,7 @@ export default {
   .form-bg {
     padding: 2em;
     flex: 1;
-    max-width: 506px;
+    max-width: 394px;
     width: 127%;
     margin: 8px -30px;
     box-shadow: 0 1px 5px 5px hsl(0deg 0% 61% / 7%) !important;
@@ -229,35 +307,35 @@ export default {
 }
 
 @media only screen and (max-width: 480px) {
-.form-bg {
+  .form-bg {
     padding: 2em;
     flex: 1;
-    max-width: 506px;
+    max-width: 394px;
     width: 127%;
     margin: 8px -30px;
     box-shadow: 0 1px 5px 5px hsl(0deg 0% 61% / 7%) !important;
     border-radius: 15px !important;
     background-color: #fff;
     position: relative;
-}
-.cil-md-6{
-  padding-left: 34px;
-}
+  }
+  .cil-md-6 {
+    padding-left: 34px;
+  }
 }
 @media only screen and (min-width: 1200px) {
-.form-bg {
+  .form-bg {
     padding: 2em;
     flex: 1;
-    max-width: 506px;
+    max-width: 394px;
     width: 127%;
     margin: 8px -30px;
     box-shadow: 0 1px 5px 5px hsl(0deg 0% 61% / 7%) !important;
     border-radius: 15px !important;
     background-color: #fff;
     position: relative;
-}
-.cil-md-6{
-  padding-left: 34px;
-}
+  }
+  .cil-md-6 {
+    padding-left: 34px;
+  }
 }
 </style>

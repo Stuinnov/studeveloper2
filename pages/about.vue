@@ -92,9 +92,84 @@
 </template>
 <script>
 import Navbar from "../components/Navbar";
+
 export default {
   components: {
     Navbar,
+  },
+  head() {
+    return {
+      title: "About|STU Innovations Private Limited",
+      meta: [
+        {
+          
+          name: "description",
+          content:
+            "Join us on our mission to reimagine the facilities experience and transform the built environment.",
+        },
+        {
+          hid: "fb-share-title",
+          property: "og:title",
+          content: "stuinnov.com | platform",
+        },
+        {
+          hid: "fb-share-description",
+          property: "og:description",
+          content: "Join us on our mission to reimagine the facilities",
+        },
+        {
+          hid: "fb-share-image",
+          property: "og:image",
+          rel: "icon",
+          type: "image/png",
+          sizes: "16x16",
+          href: "/images/logo-s.png",
+        },
+        {
+          hid: "fb-share-url",
+
+          property: "og:url",
+          content: "https://stuinnov.com/platform/",
+        },
+        {
+          hid: "twitter-meta",
+          name: "twitter:card",
+          content: "summary_large_image",
+        },
+        {
+          hid: "twitter-title",
+          name: "twitter:title",
+          content: "stuinnov.com | platform",
+        },
+        {
+          hid: "twitter-description",
+          name: "twitter:description",
+          content:
+            "Join us on our mission to reimagine the facilities experience and transform the built environment.",
+        },
+        {
+          hid: "twitter-image",
+          name: "twitter:image",
+          content: "",
+        },
+        {
+          hid: "twitter-url",
+          name: "twitter:url",
+          content: "hhttps://stuinnov.com/platform/",
+        },
+      ],
+      link: [
+        {
+          rel: "canonical",
+          href: "https://stuinnov.com/platform/",
+        },
+      ],
+      script: [
+        { src: "../js/page.js" },
+        { src: "../js/waypoints.min.js" },
+        { src: "../js/includes.js" },
+      ],
+    };
   },
 };
 </script>
@@ -108,7 +183,7 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  background: #E76F51;
+  background: #F95738;
 }
 .aboutPage .bannerCont .dots-wrap {
   margin-top: 65px;
@@ -149,7 +224,7 @@ export default {
   padding-bottom: 60px;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: #372668;
+  background-color: #4281A4;
 }
 .bennar p {
   font-family: "playfair_displayregular";

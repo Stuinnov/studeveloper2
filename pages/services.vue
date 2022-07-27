@@ -91,10 +91,10 @@ export default {
   },
   head() {
     return {
-      title: "stu | service",
+      title: "Services|STU Innovations Private Limited",
       meta: [
         {
-          hid: "description",
+          
           name: "description",
           content:
             "Join us on our mission to reimagine the facilities experience and transform the built environment.",
@@ -102,7 +102,7 @@ export default {
         {
           hid: "fb-share-title",
           property: "og:title",
-          content: "stuinnov.com | service",
+          content: "stuinnov.com | platform",
         },
         {
           hid: "fb-share-description",
@@ -121,7 +121,7 @@ export default {
           hid: "fb-share-url",
 
           property: "og:url",
-          content: "https://stuinnov.com/service/",
+          content: "https://stuinnov.com/platform/",
         },
         {
           hid: "twitter-meta",
@@ -131,7 +131,7 @@ export default {
         {
           hid: "twitter-title",
           name: "twitter:title",
-          content: "stuinnov.com | service",
+          content: "stuinnov.com | platform",
         },
         {
           hid: "twitter-description",
@@ -147,13 +147,13 @@ export default {
         {
           hid: "twitter-url",
           name: "twitter:url",
-          content: "hhttps://stuinnov.com/service/",
+          content: "hhttps://stuinnov.com/platform/",
         },
       ],
       link: [
         {
           rel: "canonical",
-          href: "https://stuinnov.com/service/",
+          href: "https://stuinnov.com/platform/",
         },
       ],
       script: [
@@ -173,7 +173,7 @@ export default {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-  background-color: #E76F51;
+  background-color: #354F52;
   border: 0.8px sienna;
 }
 .img-service {
