@@ -97,7 +97,7 @@
                     name="Subject"
                     placeholder="Subject"
                     required
-                    style="width: 267px; height: 40px"
+                    style="width: 267px;"
                   />
                 </div>
                 <div class="contact-fields">
