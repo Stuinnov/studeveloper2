@@ -63,9 +63,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6" style="padding-left: 109px">
-            <img style="left: -4px;top: -83px; width: 556px;position: absolute;opacity: 0.3;" class="/images" src="/images/shapes.png"
-            />
+          <div class="col-md-6 disin">
+            <img src="/images/shapes.png" class="images-for-bacround" />
             <div class="form-bg">
               <h1 style="text-align: center; margin-bottom: 29px">
                 Get In Touch
@@ -78,7 +77,7 @@
                     name="Name"
                     placeholder="Name"
                     required
-                    style="width: 308px; height: 40px"
+                    style="width: 267px; height: 40px"
                   />
                 </div>
                 <div class="contact-fields">
@@ -88,7 +87,7 @@
                     name="Email"
                     placeholder="Email"
                     required
-                    style="width: 308px; height: 40px"
+                    style="width: 267px; height: 40px"
                   />
                 </div>
                 <div class="contact-fields">
@@ -98,7 +97,7 @@
                     name="Subject"
                     placeholder="Subject"
                     required
-                    style="width: 308px; height: 40px"
+                    style="width: 267px; height: 40px"
                   />
                 </div>
                 <div class="contact-fields">
@@ -106,7 +105,7 @@
                   <textarea
                     name="Message"
                     placeholder="Message"
-                    style="width: 308px"
+                    style="width: 267px"
                   ></textarea>
                 </div>
                 <input class="btn-page" type="submit" value="Submit" />
@@ -130,7 +129,6 @@ export default {
       title: "Contact|STU Innovations Private Limited",
       meta: [
         {
-          
           name: "description",
           content:
             "Join us on our mission to reimagine the facilities experience and transform the built environment.",
@@ -207,6 +205,24 @@ export default {
   background-color: aquamarine;
   padding: 100px 0;
 }
+.disin {
+  padding-left: 109px;
+  margin-top: 150px;
+}
+.images {
+  position: absolute;
+  left: 68px;
+  top: -88px;
+  width: 100%;
+  opacity: 0.3;
+}
+.images-for-bacround {
+  left: 25px;
+  top: -76px;
+  width: 575px;
+  position: absolute;
+  opacity: 0.3;
+}
 .page-title {
   max-width: 450px;
 }
@@ -253,13 +269,7 @@ export default {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-.images {
-  position: absolute;
-  left: 68px;
-  top: -88px;
-  width: 100%;
-  opacity: 0.3;
-}
+
 .btn-page {
   margin-top: 69px;
   width: 156px;
@@ -277,13 +287,31 @@ export default {
   .form-bg {
     padding: 2em;
     flex: 1;
-    max-width: 394px;
+    max-width: 330px;
     width: 127%;
     margin: 8px -30px;
     box-shadow: 0 1px 5px 5px hsl(0deg 0% 61% / 7%) !important;
     border-radius: 15px !important;
     background-color: #fff;
     position: relative;
+  }
+  .images {
+    position: absolute;
+    left: 68px;
+    top: -88px;
+    width: 100%;
+    opacity: 0.3;
+  }
+  .disin {
+    padding-left: 50px;
+    margin-top: 56px;
+  }
+  .images-for-bacround {
+    left: 37px;
+    top: -57px;
+    width: 309px;
+    position: absolute;
+    opacity: 0.3;
   }
   .cil-md-6 {
     padding-left: 34px;
@@ -310,7 +338,7 @@ export default {
   .form-bg {
     padding: 2em;
     flex: 1;
-    max-width: 394px;
+    max-width: 338px;
     width: 127%;
     margin: 8px -30px;
     box-shadow: 0 1px 5px 5px hsl(0deg 0% 61% / 7%) !important;
