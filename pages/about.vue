@@ -39,9 +39,6 @@
       </div>
       <div class="Efficiency">
         <div class="Efficiency-box">
-          <div class="Efficiency-icon">
-            <img src="/images/smartphone1.svg" />
-          </div>
           <div class="Efficiency-heading">
             <h4>Workforce Efficiency</h4>
           </div>
@@ -53,9 +50,6 @@
           </div>
         </div>
         <div class="Efficiency-box">
-          <div class="Efficiency-icon">
-            <img src="/images/pressure.svg" />
-          </div>
           <div class="Efficiency-heading">
             <h4>Asset Efficiency</h4>
           </div>
@@ -67,9 +61,6 @@
           </div>
         </div>
         <div class="Efficiency-box">
-          <div class="Efficiency-icon">
-            <img src="/images/pie-chart.svg" />
-          </div>
           <div class="Efficiency-heading">
             <h4>Energy Efficiency</h4>
           </div>
@@ -102,7 +93,6 @@ export default {
       title: "About|STU Innovations Private Limited",
       meta: [
         {
-          
           name: "description",
           content:
             "Join us on our mission to reimagine the facilities experience and transform the built environment.",
@@ -183,7 +173,7 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  background: #F95738;
+  background: #f95738;
 }
 .aboutPage .bannerCont .dots-wrap {
   margin-top: 65px;
@@ -224,7 +214,7 @@ export default {
   padding-bottom: 60px;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: #4281A4;
+  background-color: #4281a4;
 }
 .bennar p {
   font-family: "playfair_displayregular";
