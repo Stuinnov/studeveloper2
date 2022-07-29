@@ -5,7 +5,7 @@
     </div>
     <div class="service-banner">
       <div class="service-banner-h">
-        <h1 style="font-size: 76px; margin-block: auto;">Platform</h1>
+        <h1 style="font-size: 76px; margin-block: auto">Platform</h1>
         <p style="font-size: 23px">
           We deliver extremely responsive cross-platform apps that improve user
           engagement and enhance the user experience across platforms
@@ -13,105 +13,148 @@
       </div>
       <img class="img-platform" src="/images/Platform-1.png" />
     </div>
-    <section
-      class="row"
-      style="margin-right: 0px; margin-left: 0px; align-items: center"
-    >
-      <div class="col-md-4" style="padding: 42px">
-        <div class="card-service">
-          <img
-            style="width: 60px; padding-bottom: 20px"
-            src="/images/mobile.png"
-          />
-          <h3>STU Mobile ERP</h3>
-          <p>
-            Users access the mobile platform over the internet using either a
-            dedicated mobile app or a standard mobile browser
-          </p>
-        </div>
-      </div>
-      <div class="col-md-4" style="padding: 42px">
-        <div class="card-service">
-          <img
-            style="width: 90px; padding-bottom: 20px"
-            src="/images/Google_Finance.png"
-          />
-          <h3>STU E Finence</h3>
-          <p>
-            We are particular web applications manifestations give the most
-            significant level of ease of use, versatility and complete
-            similarity on cell phones, programs and stages.
-          </p>
-        </div>
-      </div>
-      <div class="col-md-4" style="padding: 42px">
-        <div class="card-service">
-          <img style="width: 60px; padding-bottom: 20px" src="/images/wd1.jpg" />
-          <h3>STU E Rooms</h3>
-          <p>
-            AdWords (Google AdWords) is a publicizing administration by Google
-            for organizations needing to show advertisements on Google and its
-            promoting system.
-          </p>
-        </div>
-      </div>
-      <div class="col-md-4" style="padding: 42px">
-        <div class="card-service">
-          <img
-            style="width: 60px; padding-bottom: 20px"
-            src="/images/softwares.png"
-          />
-          <h3>Computer Softwares</h3>
-          <p>
-            There are a wide range of sorts of use programming, in light of the
-            fact that the scope of assignments that can be performed with a
-            cutting edge PC is so enormous—see rundown of programming.
-          </p>
-        </div>
-      </div>
-      <div class="col-md-4" style="padding: 42px">
-        <div class="card-service">
-          <img
-            style="width: 80px; padding-bottom: 20px"
-            src="/images/seo-1.png"
-          />
-          <h3>Google Promotions & SEO</h3>
-          <p>
-            Web optimization represents Search Engine Optimization- SEO, which
-            is the act of expanding the amount and nature of traffic to your
-            site through natural web search tool results.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-4" style="padding: 42px">
-        <div class="card-service">
-          <img
-            style="width: 90px; padding-bottom: 20px"
-            src="/images/YouTube.png"
-          />
-          <h3>YouTube Advertising</h3>
-          <p>
-            YouTube Ads Often previously, during, or after watchers watch a
-            video, they should watch a video promotion. The promotion could be a
-            TrueView In-Stream Video that plays consequently
-          </p>
-        </div>
-      </div>
-      <div class="col-md-4" style="padding: 42px">
-        <div class="card-service">
-          <img
-            style="width: 60px; padding-bottom: 20px"
-            src="/images/domain.png"
-          />
-          <h3>Domain & Hosting Services</h3>
-          <p>
-            Web Hosting is a record on a PC as server that can store and serve
-            site documents by means of the Internet. Domain Registration E.g.,
-            www.example.com that guides individuals to explicit site records by
-            means of a program.
-          </p>
-        </div>
+    <section class="platform-update" style="padding-bottom: 70px">
+      <div class="st-container">
+        <div class="row" style="     margin-right: 0px;margin-left: 0px;">
+          <div class="col-md-4 col-sm-6" style="padding: 42px">
+            <a href="#">
+              <div class="platform-update-card">
+                <div
+                  class="platform-card-placeholder"
+                  style="background-color: #fac"
+                >
+                  <div class="platform-image-inner">
+                    <img
+                      src="/images/whatsnew/img_11.png"
+                      class="pt-upd-img"
+                      style="height: 198px"
+                    />
+                  </div>
+                </div>
+                <div class="platform-desc-set">
+                  <div class="month-float"></div>
+                  <h3></h3>
+                </div>
+                <div class=read-more>read-more</div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-6" style="padding: 42px">
+            <a href="#">
+              <div class="platform-update-card">
+                <div
+                  class="platform-card-placeholder"
+                  style="background-color: #fac"
+                >
+                  <div class="platform-image-inner">
+                    <img
+                      src="/images/whatsnew/img_11.png"
+                      class="pt-upd-img"
+                      style="height: 198px"
+                    />
+                  </div>
+                </div>
+                <div class="platform-desc-set">
+                  <div class="month-float"></div>
+                  <h3></h3>
+                </div>
+                <div class=read-more>read-more</div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-6" style="padding: 42px">
+            <a href="#">
+              <div class="platform-update-card">
+                <div
+                  class="platform-card-placeholder"
+                  style="background-color: #fac"
+                >
+                  <div class="platform-image-inner">
+                    <img
+                      src="/images/whatsnew/img_11.png"
+                      class="pt-upd-img"
+                      style="height: 198px"
+                    />
+                  </div>
+                </div>
+                <div class="platform-desc-set">
+                  <div class="month-float"></div>
+                  <h3></h3>
+                </div>
+                <div class=read-more>read-more</div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-6" style="padding: 42px">
+            <a href="#">
+              <div class="platform-update-card">
+                <div
+                  class="platform-card-placeholder"
+                  style="background-color: #fac"
+                >
+                  <div class="platform-image-inner">
+                    <img
+                      src="/images/whatsnew/img_11.png"
+                      class="pt-upd-img"
+                      style="height: 198px"
+                    />
+                  </div>
+                </div>
+                <div class="platform-desc-set">
+                  <div class="month-float"></div>
+                  <h3></h3>
+                </div>
+                <div class=read-more>read-more</div>
+              </div>
+            </a>
+          </div>
+            <div class="col-md-4 col-sm-6" style="padding: 42px">
+            <a href="#">
+              <div class="platform-update-card">
+                <div
+                  class="platform-card-placeholder"
+                  style="background-color: #fac"
+                >
+                  <div class="platform-image-inner">
+                    <img
+                      src="/images/whatsnew/img_11.png"
+                      class="pt-upd-img"
+                      style="height: 198px"
+                    />
+                  </div>
+                </div>
+                <div class="platform-desc-set">
+                  <div class="month-float"></div>
+                  <h3></h3>
+                </div>
+                <div class=read-more>read-more</div>
+              </div>
+            </a>
+            </div>
+            <div class="col-md-4 col-sm-6" style="padding: 42px">
+            <a href="#">
+              <div class="platform-update-card">
+                <div
+                  class="platform-card-placeholder"
+                  style="background-color: #fac"
+                >
+                  <div class="platform-image-inner">
+                    <img
+                      src="/images/whatsnew/img_11.png"
+                      class="pt-upd-img"
+                      style="height: 198px"
+                    />
+                  </div>
+                </div>
+                <div class="platform-desc-set">
+                  <div class="month-float"></div>
+                  <h3></h3>
+                </div>
+                <div class=read-more>read-more</div>
+              </div>
+            </a>
+            </div>
+          </div>
       </div>
     </section>
   </div>
@@ -128,7 +171,6 @@ export default {
       title: "Platform|STU Innovations Private Limited",
       meta: [
         {
-          
           name: "description",
           content:
             "Join us on our mission to reimagine the facilities experience and transform the built environment.",
@@ -207,11 +249,125 @@ export default {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  background-color:#2A9D8F;
+  background-color: #2a9d8f;
   border: 0.8px sienna;
 }
-.img-platform {
-  width: auto;
+.read-more:after {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 7px;
+  opacity: 1;
+  transition: 0.3s ease;
+  background: url(/images/light-violet.svg) 50% / contain no-repeat;
+}
+.read-more {
+ position: absolute;
+    bottom: 50px;
+    right: 115px;
+    color: #5969e4;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "ProximaNovaSemiBold";
+}
+.platform-desc-set h3 {
+  max-width: 300px;
+  width: 100%;
+  font-family: ProximaNovaBold;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 10px;
+  line-height: 28px;
+  color: #181b3b;
+}
+.platform-desc-set {
+  padding: 25px;
+  position: relative;
+}
+.month-float {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: "ProximaNovaSemiBold";
+  color: #898ab2;
+}
+.fc-platform-desc-set h3 {
+  max-width: 300px;
+  width: 100%;
+  font-family: ProximaNovaBold;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 10px;
+  line-height: 28px;
+  color: #181b3b;
+}
+.pt-upd-img {
+  width: 100%;
+  max-width: 270px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  position: relative;
+  top: 10px;
+}
+.platform-card-placeholder {
+  height: 220px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  position: relative;
+}
+.platform-image-inner {
+  height: 100%;
+  max-width: 310px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.platform-update-card {
+  margin: 50px 10px 0;
+  height: 465px;
+  width: 320px;
+  border-radius: 15px;
+  border: 1px solid #e0e2ec;
+  background-color: #fff;
+}
+.platform-update {
+  padding: 40px 0 150px;
+}
+.platform-update-card {
+  margin: 50px 10px 0;
+  height: 465px;
+  border-radius: 15px;
+  border: 1px solid #e0e2ec;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+  .platform-update-card {
+    margin: 30px !important;
+    height: 460px;
+  }
+
+  .st-container {
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .read-more {
+    position: absolute;
+    bottom: 80px;
+    right: 35px;
+    color: #5969e4;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: ProximaNovaSemiBold;
+}
+  .img-platform {
+    width: auto;
+  }
 }
 .service-banner-h {
   float: left;
