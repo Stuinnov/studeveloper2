@@ -15,13 +15,13 @@
     </div>
     <section class="platform-update" style="padding-bottom: 70px">
       <div class="st-container">
-        <div class="row" style="     margin-right: 0px;margin-left: 0px;">
+        <div class="row" style="margin-right: 0px; margin-left: 0px">
           <div class="col-md-4 col-sm-6" style="padding: 42px">
             <a href="#">
               <div class="platform-update-card">
                 <div
                   class="platform-card-placeholder"
-                  style="background-color: #fac"
+                  style="background-color: #A4C3B2"
                 >
                   <div class="platform-image-inner">
                     <img
@@ -35,30 +35,7 @@
                   <div class="month-float"></div>
                   <h3></h3>
                 </div>
-                <div class=read-more>read-more</div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-4 col-sm-6" style="padding: 42px">
-            <a href="#">
-              <div class="platform-update-card">
-                <div
-                  class="platform-card-placeholder"
-                  style="background-color: #fac"
-                >
-                  <div class="platform-image-inner">
-                    <img
-                      src="/images/whatsnew/img_11.png"
-                      class="pt-upd-img"
-                      style="height: 198px"
-                    />
-                  </div>
-                </div>
-                <div class="platform-desc-set">
-                  <div class="month-float"></div>
-                  <h3></h3>
-                </div>
-                <div class=read-more>read-more</div>
+                <div class="read-more">read-more</div>
               </div>
             </a>
           </div>
@@ -67,7 +44,7 @@
               <div class="platform-update-card">
                 <div
                   class="platform-card-placeholder"
-                  style="background-color: #fac"
+                  style="background-color: #BDE0FE"
                 >
                   <div class="platform-image-inner">
                     <img
@@ -81,7 +58,7 @@
                   <div class="month-float"></div>
                   <h3></h3>
                 </div>
-                <div class=read-more>read-more</div>
+                <div class="read-more">read-more</div>
               </div>
             </a>
           </div>
@@ -90,7 +67,7 @@
               <div class="platform-update-card">
                 <div
                   class="platform-card-placeholder"
-                  style="background-color: #fac"
+                  style="background-color: #F7EDE2"
                 >
                   <div class="platform-image-inner">
                     <img
@@ -104,16 +81,16 @@
                   <div class="month-float"></div>
                   <h3></h3>
                 </div>
-                <div class=read-more>read-more</div>
+                <div class="read-more">read-more</div>
               </div>
             </a>
           </div>
-            <div class="col-md-4 col-sm-6" style="padding: 42px">
+          <div class="col-md-4 col-sm-6" style="padding: 42px">
             <a href="#">
               <div class="platform-update-card">
                 <div
                   class="platform-card-placeholder"
-                  style="background-color: #fac"
+                  style="background-color: #FCA311"
                 >
                   <div class="platform-image-inner">
                     <img
@@ -127,16 +104,16 @@
                   <div class="month-float"></div>
                   <h3></h3>
                 </div>
-                <div class=read-more>read-more</div>
+                <div class="read-more">read-more</div>
               </div>
             </a>
-            </div>
-            <div class="col-md-4 col-sm-6" style="padding: 42px">
+          </div>
+          <div class="col-md-4 col-sm-6" style="padding: 42px">
             <a href="#">
               <div class="platform-update-card">
                 <div
                   class="platform-card-placeholder"
-                  style="background-color: #fac"
+                  style="background-color:#E09F3E"
                 >
                   <div class="platform-image-inner">
                     <img
@@ -150,11 +127,34 @@
                   <div class="month-float"></div>
                   <h3></h3>
                 </div>
-                <div class=read-more>read-more</div>
+                <div class="read-more">read-more</div>
               </div>
             </a>
-            </div>
           </div>
+          <div class="col-md-4 col-sm-6" style="padding: 42px">
+            <a href="#">
+              <div class="platform-update-card">
+                <div
+                  class="platform-card-placeholder"
+                  style="background-color: #DAD7CD"
+                >
+                  <div class="platform-image-inner">
+                    <img
+                      src="/images/whatsnew/img_11.png"
+                      class="pt-upd-img"
+                      style="height: 198px"
+                    />
+                  </div>
+                </div>
+                <div class="platform-desc-set">
+                  <div class="month-float"></div>
+                  <h3></h3>
+                </div>
+                <div class="read-more">read-more</div>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   </div>
@@ -265,13 +265,13 @@ export default {
   background: url(/images/light-violet.svg) 50% / contain no-repeat;
 }
 .read-more {
- position: absolute;
-    bottom: 50px;
-    right: 115px;
-    color: #5969e4;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-family: "ProximaNovaSemiBold";
+  position: absolute;
+  bottom: 50px;
+  right: 115px;
+  color: #5969e4;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "ProximaNovaSemiBold";
 }
 .platform-desc-set h3 {
   max-width: 300px;
@@ -347,7 +347,7 @@ export default {
 
 @media screen and (max-width: 500px) {
   .platform-update-card {
-    margin: 30px !important;
+    margin: -14px !important;
     height: 460px;
   }
 
@@ -358,13 +358,27 @@ export default {
   }
   .read-more {
     position: absolute;
-    bottom: 80px;
-    right: 35px;
+    bottom: 46px;
+    right: 65px;
     color: #5969e4;
     text-transform: uppercase;
     font-size: 14px;
     font-family: ProximaNovaSemiBold;
+  }
+  .service-banner-h {
+    width: 372px;
+    color: rgb(0, 0, 0);
+    font-family: "Merriweather";
+    font-weight: 500;
+    text-align: center;
 }
+  .service-banner-h {
+    width: 389px;
+    color: rgb(255, 255, 255);
+    font-family: "Merriweather";
+    font-weight: 500;
+    text-align: center;
+  }
   .img-platform {
     width: auto;
   }
@@ -379,13 +393,13 @@ export default {
 @media only screen and (max-width: 480px) {
   .service-banner {
     height: 300px;
-    background-color: rgb(241, 244, 244);
+    background-color: #2a9d8f;
     border: none;
     display: block;
   }
   .service-banner-h {
     width: 389px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: "Merriweather";
     font-weight: 500;
     text-align: center;

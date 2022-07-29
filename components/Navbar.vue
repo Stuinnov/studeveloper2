@@ -2,7 +2,7 @@
   <section>
     <div class="logo-titel">
       <h1 class="navbar-brand">
-        <span class="logo-newlogo">STU Innovations</span>
+        <span ><img class="logo-newlogo" src="images/stuinnov.png"></span>
       </h1>
     </div>
     <nav id="menu" class="nav-menu-items" style="float: left">
@@ -36,7 +36,7 @@
     </nav>
     <div class="mobile-titel">
       <h1 class="navbar-brand">
-        <span class="logo-newlogo">STU Innovations</span>
+        <span ><img class="logo-newlogo" src="images/stuinnov.png"></span>
       </h1>
     </div>
   </section>
@@ -69,9 +69,10 @@
   width: 100%;
 }
 .logo-newlogo {
-  color: #ff50ac;
-  margin-top: 5px;
-  padding-left: 30px;
+ 
+    margin-top:5px;
+    padding-left: 20px;
+    width: 270px;
 }
 #menu li {
   float: left;
@@ -225,5 +226,11 @@
     color: #ffffff;
     font-size: 20px;
   }
+  .logo-newlogo {
+ 
+    margin-top: -9px;
+    padding-left: 20px;
+    width: 270px;
+}
 }
 </style>
