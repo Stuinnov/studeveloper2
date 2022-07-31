@@ -332,7 +332,7 @@ export default {
 }
 .platform-update-card {
   margin: 50px 10px 0;
-  height: 465px;
+  height: 500px;
   width: 320px;
   border-radius: 15px;
   border: 1px solid #e0e2ec;
