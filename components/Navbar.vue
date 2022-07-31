@@ -2,7 +2,7 @@
   <section>
     <div class="logo-titel">
       <h1 class="navbar-brand">
-        <span ><img class="logo-newlogo" src="/images/fil/stuinnov.png"></span>
+        <span ><img class="logo-newlogo" src="/images/stuinnov.png"></span>
       </h1>
     </div>
     <nav id="menu" class="nav-menu-items" style="float: left">
@@ -36,7 +36,7 @@
     </nav>
     <div class="mobile-titel">
       <h1 class="navbar-brand">
-        <span ><img class="logo-newlogo" src="/images/fil/stuinnov.png"></span>
+        <span ><img class="logo-newlogo" src="/images/stuinnov.png"></span>
       </h1>
     </div>
   </section>

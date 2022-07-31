@@ -25,15 +25,16 @@
                 >
                   <div class="platform-image-inner">
                     <img
-                      src="/images/whatsnew/img_11.png"
+                      src="/images/Platform-image-1.jpeg" 
                       class="pt-upd-img"
                       style="height: 198px"
                     />
                   </div>
                 </div>
                 <div class="platform-desc-set">
-                  <div class="month-float"></div>
-                  <h3></h3>
+                  <div class="month-float">version-2020</div>
+                  <h1>Pawn shop</h1>
+                  <h3>a store that lends money in exchange for a valuable thing that they can sell if the person leaving it does</h3>
                 </div>
                 <div class="read-more">read-more</div>
               </div>
@@ -48,15 +49,16 @@
                 >
                   <div class="platform-image-inner">
                     <img
-                      src="/images/whatsnew/img_11.png"
+                      src="/images/Platform-image-2.jpeg"
                       class="pt-upd-img"
                       style="height: 198px"
                     />
                   </div>
                 </div>
                 <div class="platform-desc-set">
-                  <div class="month-float"></div>
-                  <h3></h3>
+                  <div class="month-float">version-2021</div>
+                  <h1>STU D Point</h1>
+                  <h3>d POINT is a point program that allows you to earn and use d POINTs in a variety of stores like fast-food restaurants x</h3>
                 </div>
                 <div class="read-more">read-more</div>
               </div>
@@ -71,15 +73,16 @@
                 >
                   <div class="platform-image-inner">
                     <img
-                      src="/images/whatsnew/img_11.png"
+                      src="/images/Platform-image-3.jpeg"
                       class="pt-upd-img"
                       style="height: 198px"
                     />
                   </div>
                 </div>
                 <div class="platform-desc-set">
-                  <div class="month-float"></div>
-                  <h3></h3>
+                  <div class="month-float">version-2020</div>
+                  <h1>STU mob ERP</h1>
+                  <h3> ERP solution designed for mobile devices such as iOS and Android tablets or smartphones.</h3>
                 </div>
                 <div class="read-more">read-more</div>
               </div>
@@ -94,15 +97,16 @@
                 >
                   <div class="platform-image-inner">
                     <img
-                      src="/images/whatsnew/img_11.png"
+                      src="/images/Platform-image-4.jpeg"
                       class="pt-upd-img"
                       style="height: 198px"
                     />
                   </div>
                 </div>
                 <div class="platform-desc-set">
-                  <div class="month-float"></div>
-                  <h3></h3>
+                  <div class="month-float">version-2020</div>
+                  <h2>STU Jewellery ERP</h2>
+                  <h3>multi-module application software that helps retailers who need an efficient solution to automate Jewellery retailing.</h3>
                 </div>
                 <div class="read-more">read-more</div>
               </div>
