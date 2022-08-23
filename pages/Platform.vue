@@ -352,7 +352,7 @@ export default {
 @media screen and (max-width: 500px) {
   .platform-update-card {
     margin: -14px !important;
-    height: 460px;
+    height: 489px;
   }
 
   .st-container {
@@ -363,7 +363,7 @@ export default {
   .read-more {
     position: absolute;
     bottom: 46px;
-    right: 65px;
+    right: 79px;
     color: #5969e4;
     text-transform: uppercase;
     font-size: 14px;
